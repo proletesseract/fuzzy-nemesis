@@ -1,0 +1,652 @@
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1001 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [860 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":17,"charStart":512,"charEnd":566}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/nav.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":571,"charEnd":623}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/services/firstyear_feed.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":20,"charStart":637,"charEnd":698}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module1.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":22,"charStart":708,"charEnd":764}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module2.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":23,"charStart":769,"charEnd":825}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module3.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":24,"charStart":830,"charEnd":886}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module4.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":25,"charStart":892,"charEnd":948}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module5.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":26,"charStart":953,"charEnd":1009}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module6.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":27,"charStart":1014,"charEnd":1070}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/inter.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":29,"charStart":1080,"charEnd":1134}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/outro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":31,"charStart":1147,"charEnd":1201}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/footer.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":33,"charStart":1211,"charEnd":1266}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"firstyear-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":42,"charStart":1449,"charEnd":1466}}]
+build.dart finished [908 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":17,"charStart":511,"charEnd":565}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/nav.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":570,"charEnd":622}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/services/firstyear_feed.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":20,"charStart":636,"charEnd":697}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module1.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":22,"charStart":707,"charEnd":763}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module2.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":23,"charStart":768,"charEnd":824}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module3.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":24,"charStart":829,"charEnd":885}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module4.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":25,"charStart":891,"charEnd":947}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module5.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":26,"charStart":952,"charEnd":1008}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module6.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":27,"charStart":1013,"charEnd":1069}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/inter.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":29,"charStart":1079,"charEnd":1133}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/outro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":31,"charStart":1146,"charEnd":1200}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/footer.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":33,"charStart":1210,"charEnd":1265}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"firstyear-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":42,"charStart":1448,"charEnd":1465}}]
+build.dart finished [898 ms]
+
+---
+build.dart --machine --changed=web/js/ScrollToPlugin.js --changed=web/js/TweenMax.js --changed=web/js/weakmap.j...
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":17,"charStart":511,"charEnd":565}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/nav.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":570,"charEnd":622}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/services/firstyear_feed.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":20,"charStart":636,"charEnd":697}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module1.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":22,"charStart":707,"charEnd":763}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module2.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":23,"charStart":768,"charEnd":824}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module3.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":24,"charStart":829,"charEnd":885}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module4.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":25,"charStart":891,"charEnd":947}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module5.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":26,"charStart":952,"charEnd":1008}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module6.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":27,"charStart":1013,"charEnd":1069}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/inter.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":29,"charStart":1079,"charEnd":1133}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/outro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":31,"charStart":1146,"charEnd":1200}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/footer.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":33,"charStart":1210,"charEnd":1265}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"firstyear-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":42,"charStart":1448,"charEnd":1465}}]
+build.dart finished [898 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":516,"charEnd":570}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/nav.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":19,"charStart":575,"charEnd":627}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/services/firstyear_feed.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":21,"charStart":641,"charEnd":702}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module1.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":23,"charStart":712,"charEnd":768}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module2.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":24,"charStart":773,"charEnd":829}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module3.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":25,"charStart":834,"charEnd":890}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module4.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":26,"charStart":896,"charEnd":952}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module5.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":27,"charStart":957,"charEnd":1013}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module6.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":28,"charStart":1018,"charEnd":1074}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/inter.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":30,"charStart":1084,"charEnd":1138}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/outro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":32,"charStart":1151,"charEnd":1205}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/footer.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":34,"charStart":1215,"charEnd":1270}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"firstyear-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":43,"charStart":1453,"charEnd":1470}}]
+build.dart finished [908 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":516,"charEnd":570}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/nav.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":19,"charStart":575,"charEnd":627}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/services/firstyear_feed.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":21,"charStart":641,"charEnd":702}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module1.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":23,"charStart":712,"charEnd":768}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module2.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":24,"charStart":773,"charEnd":829}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module3.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":25,"charStart":834,"charEnd":890}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module4.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":26,"charStart":896,"charEnd":952}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module5.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":27,"charStart":957,"charEnd":1013}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module6.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":28,"charStart":1018,"charEnd":1074}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/inter.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":30,"charStart":1084,"charEnd":1138}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/outro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":32,"charStart":1151,"charEnd":1205}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/footer.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":34,"charStart":1215,"charEnd":1270}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"firstyear-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":43,"charStart":1453,"charEnd":1470}}]
+build.dart finished [901 ms]
+
+---
+build.dart --machine --changed=web/lib/intro.html
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":516,"charEnd":570}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/nav.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":19,"charStart":575,"charEnd":627}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/services/firstyear_feed.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":21,"charStart":641,"charEnd":702}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module1.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":23,"charStart":712,"charEnd":768}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module2.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":24,"charStart":773,"charEnd":829}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module3.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":25,"charStart":834,"charEnd":890}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module4.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":26,"charStart":896,"charEnd":952}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module5.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":27,"charStart":957,"charEnd":1013}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module6.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":28,"charStart":1018,"charEnd":1074}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/inter.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":30,"charStart":1084,"charEnd":1138}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/outro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":32,"charStart":1151,"charEnd":1205}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/footer.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":34,"charStart":1215,"charEnd":1270}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"firstyear-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":43,"charStart":1453,"charEnd":1470}}]
+build.dart finished [902 ms]
+
+---
+build.dart --machine --changed=web/lib/intro.dart
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":516,"charEnd":570}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/nav.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":19,"charStart":575,"charEnd":627}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/services/firstyear_feed.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":21,"charStart":641,"charEnd":702}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module1.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":23,"charStart":712,"charEnd":768}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module2.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":24,"charStart":773,"charEnd":829}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module3.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":25,"charStart":834,"charEnd":890}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module4.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":26,"charStart":896,"charEnd":952}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module5.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":27,"charStart":957,"charEnd":1013}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module6.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":28,"charStart":1018,"charEnd":1074}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/inter.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":30,"charStart":1084,"charEnd":1138}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/outro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":32,"charStart":1151,"charEnd":1205}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/footer.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":34,"charStart":1215,"charEnd":1270}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"firstyear-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":43,"charStart":1453,"charEnd":1470}}]
+build.dart finished [902 ms]
+
+---
+build.dart --machine --removed=web/lib/intro.html
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":516,"charEnd":570}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/nav.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":19,"charStart":575,"charEnd":627}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/services/firstyear_feed.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":21,"charStart":641,"charEnd":702}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module1.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":23,"charStart":712,"charEnd":768}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module2.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":24,"charStart":773,"charEnd":829}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module3.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":25,"charStart":834,"charEnd":890}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module4.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":26,"charStart":896,"charEnd":952}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module5.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":27,"charStart":957,"charEnd":1013}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module6.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":28,"charStart":1018,"charEnd":1074}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/inter.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":30,"charStart":1084,"charEnd":1138}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/outro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":32,"charStart":1151,"charEnd":1205}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/footer.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":34,"charStart":1215,"charEnd":1270}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"firstyear-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":43,"charStart":1453,"charEnd":1470}}]
+build.dart finished [901 ms]
+
+---
+build.dart --machine --changed=web/lib/intro.html
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":516,"charEnd":570}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/nav.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":19,"charStart":575,"charEnd":627}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/services/firstyear_feed.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":21,"charStart":641,"charEnd":702}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module1.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":23,"charStart":712,"charEnd":768}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module2.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":24,"charStart":773,"charEnd":829}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module3.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":25,"charStart":834,"charEnd":890}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module4.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":26,"charStart":896,"charEnd":952}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module5.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":27,"charStart":957,"charEnd":1013}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module6.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":28,"charStart":1018,"charEnd":1074}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/inter.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":30,"charStart":1084,"charEnd":1138}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/outro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":32,"charStart":1151,"charEnd":1205}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/footer.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":34,"charStart":1215,"charEnd":1270}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"firstyear-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":43,"charStart":1453,"charEnd":1470}}]
+build.dart finished [957 ms]
+
+---
+build.dart --machine --changed=web/lib/intro.html
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":516,"charEnd":570}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/nav.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":19,"charStart":575,"charEnd":627}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/services/firstyear_feed.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":21,"charStart":641,"charEnd":702}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module1.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":23,"charStart":712,"charEnd":768}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module2.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":24,"charStart":773,"charEnd":829}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module3.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":25,"charStart":834,"charEnd":890}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module4.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":26,"charStart":896,"charEnd":952}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module5.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":27,"charStart":957,"charEnd":1013}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module6.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":28,"charStart":1018,"charEnd":1074}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/inter.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":30,"charStart":1084,"charEnd":1138}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/outro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":32,"charStart":1151,"charEnd":1205}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/footer.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":34,"charStart":1215,"charEnd":1270}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"firstyear-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":43,"charStart":1453,"charEnd":1470}}]
+build.dart finished [952 ms]
+
+---
+build.dart --machine --changed=web/lib/intro.html
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":516,"charEnd":570}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/nav.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":19,"charStart":575,"charEnd":627}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/services/firstyear_feed.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":21,"charStart":641,"charEnd":702}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module1.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":23,"charStart":712,"charEnd":768}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module2.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":24,"charStart":773,"charEnd":829}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module3.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":25,"charStart":834,"charEnd":890}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module4.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":26,"charStart":896,"charEnd":952}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module5.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":27,"charStart":957,"charEnd":1013}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module6.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":28,"charStart":1018,"charEnd":1074}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/inter.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":30,"charStart":1084,"charEnd":1138}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/outro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":32,"charStart":1151,"charEnd":1205}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/footer.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":34,"charStart":1215,"charEnd":1270}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"firstyear-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":43,"charStart":1453,"charEnd":1470}}]
+build.dart finished [921 ms]
+
+---
+build.dart --machine --removed=web/fuzzy_nemesis.css --removed=web/fuzzy_nemesis.dart
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":516,"charEnd":570}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/nav.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":19,"charStart":575,"charEnd":627}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/services/firstyear_feed.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":21,"charStart":641,"charEnd":702}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module1.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":23,"charStart":712,"charEnd":768}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module2.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":24,"charStart":773,"charEnd":829}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module3.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":25,"charStart":834,"charEnd":890}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module4.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":26,"charStart":896,"charEnd":952}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module5.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":27,"charStart":957,"charEnd":1013}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/module6.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":28,"charStart":1018,"charEnd":1074}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/inter.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":30,"charStart":1084,"charEnd":1138}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/outro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":32,"charStart":1151,"charEnd":1205}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/components/footer.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":34,"charStart":1215,"charEnd":1270}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"firstyear-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":43,"charStart":1453,"charEnd":1470}}]
+build.dart finished [921 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [910 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"site-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":28,"charStart":743,"charEnd":755}}]
+build.dart finished [960 ms]
+
+---
+build.dart --machine --changed=web/lib/intro.html
+
+build.dart finished [917 ms]
+
+---
+build.dart --machine --changed=web/lib/site-intro.dart --removed=web/lib/intro.dart
+
+build.dart finished [923 ms]
+
+---
+build.dart --machine --changed=web/lib/site-intro.html --removed=web/lib/intro.html
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":516,"charEnd":559}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"site-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":28,"charStart":743,"charEnd":755}}]
+build.dart finished [921 ms]
+
+---
+build.dart --machine --changed=web/lib/site-intro.dart
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":516,"charEnd":559}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"site-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":28,"charStart":743,"charEnd":755}}]
+build.dart finished [908 ms]
+
+---
+build.dart --machine --changed=web/lib/site-intro.dart
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/lib/intro.html\" in package \"fuzzy_nemesis\". See http://goo.gl/5HPeuP#polymer_1 for details.","line":18,"charStart":516,"charEnd":559}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"custom element with name \"site-intro\" not found. See http://goo.gl/5HPeuP#polymer_11 for details.","line":28,"charStart":743,"charEnd":755}}]
+build.dart finished [930 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1007 ms]
+
+---
+build.dart --machine --changed=web/lib/site-intro.html
+
+build.dart finished [933 ms]
+
+---
+build.dart --machine --changed=web/stylesheets/master.css --changed=web/stylesheets/modules/nav.css
+
+build.dart finished [943 ms]
+
+---
+build.dart --machine --removed=web/stylesheets/modules/nav.css
+
+build.dart finished [931 ms]
+
+---
+build.dart --machine --changed=web/stylesheets/master.css
+
+build.dart finished [919 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [990 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [914 ms]
+
+---
+build.dart --machine --changed=web/lib/site-intro.dart
+
+build.dart finished [928 ms]
+
+---
+build.dart --machine --changed=web/lib/site-intro.dart
+
+build.dart finished [929 ms]
+
+---
+build.dart --machine --changed=web/lib/site-intro.dart
+
+build.dart finished [910 ms]
+
+---
+build.dart --machine --changed=web/lib/site-intro.dart
+
+build.dart finished [940 ms]
+
+---
+build.dart --machine --changed=web/lib/site-intro.html
+
+build.dart finished [915 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [914 ms]
+
+---
+build.dart --machine --changed=sass/global/_backgrounds.scss --changed=sass/global/_base.scss --changed=sass/gl...
+
+build.dart finished [920 ms]
+
+---
+build.dart --machine --changed=web/sass/global/_backgrounds.scss --changed=web/sass/global/_base.scss --changed...
+
+build.dart finished [988 ms]
+
+---
+build.dart --machine --removed=web/sass/global/_backgrounds.scss --removed=web/sass/global/_base.scss --removed...
+
+build.dart finished [907 ms]
+
+---
+build.dart --machine --removed=web/sass/layouts/_modules.scss
+
+build.dart finished [951 ms]
+
+---
+build.dart --machine --removed=web/sass/modules/_footer.scss --removed=web/sass/modules/_inter.scss --removed=w...
+
+build.dart finished [922 ms]
+
+---
+build.dart --machine --changed=web/sass/master.scss
+
+build.dart finished [905 ms]
+
+---
+build.dart --machine --changed=web/sass/global/settings.scss
+
+build.dart finished [933 ms]
+
+---
+build.dart --machine --changed=web/sass/global/base.scss
+
+build.dart finished [921 ms]
+
+---
+build.dart --machine --changed=web/sass/global/mixins.scss
+
+build.dart finished [928 ms]
+
+---
+build.dart --machine --changed=web/sass/global/states.scss
+
+build.dart finished [920 ms]
+
+---
+build.dart --machine --changed=web/sass/layouts/settings.scss
+
+build.dart finished [944 ms]
+
+---
+build.dart --machine --changed=web/sass/layouts/main.scss --removed=web/sass/layouts/settings.scss
+
+build.dart finished [909 ms]
+
+---
+build.dart --machine --changed=web/sass/modules/settings.scss
+
+build.dart finished [912 ms]
+
+---
+build.dart --machine --changed=web/sass/modules/site-intro.scss --removed=web/sass/modules/settings.scss
+
+build.dart finished [912 ms]
+
+---
+build.dart --machine --changed=web/sass/master.scss
+
+build.dart finished [914 ms]
+
+---
+build.dart --machine --changed=web/sass/master.scss
+
+build.dart finished [917 ms]
+
+---
+build.dart --machine --changed=web/sass/master.scss
+
+build.dart finished [933 ms]
+
+---
+build.dart --machine --changed=web/sass/global/_formatting.scss
+
+build.dart finished [922 ms]
+
+---
+build.dart --machine --changed=web/sass/global/_states.scss --removed=web/sass/global/states.scss
+
+build.dart finished [908 ms]
+
+---
+build.dart --machine --changed=web/sass/global/_settings.scss --removed=web/sass/global/settings.scss
+
+build.dart finished [920 ms]
+
+---
+build.dart --machine --changed=web/sass/global/_mixins.scss --removed=web/sass/global/mixins.scss
+
+build.dart finished [914 ms]
+
+---
+build.dart --machine --changed=web/sass/global/_base.scss --removed=web/sass/global/base.scss
+
+build.dart finished [923 ms]
+
+---
+build.dart --machine --changed=web/sass/layouts/_main.scss --removed=web/sass/layouts/main.scss
+
+build.dart finished [921 ms]
+
+---
+build.dart --machine --changed=web/sass/modules/_site-intro.scss --removed=web/sass/modules/site-intro.scss
+
+build.dart finished [959 ms]
+
+---
+build.dart --machine --changed=web/sass/master.scss
+
+build.dart finished [930 ms]
+
+---
+build.dart --machine --changed=web/bootstrap-3.2.0-dist/css/bootstrap-theme.css --changed=web/bootstrap-3.2.0-d...
+
+build.dart finished [933 ms]
+
+---
+build.dart --machine --changed=web/bootstrap/css/bootstrap-theme.css --changed=web/bootstrap/css/bootstrap-them...
+
+build.dart finished [921 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [921 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [973 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1009 ms]
+
+---
+build.dart --machine --changed=web/sass/global/_formatting.scss
+
+build.dart finished [920 ms]
+
+---
+build.dart --machine --changed=web/sass/global/_formatting.scss
+
+build.dart finished [911 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [954 ms]
+
+---
+build.dart --machine --changed=web/sass/layouts/_main.scss
+
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=web/sass/config.rb --changed=web/sass/sass/ie.scss --changed=web/sass/sass/print...
+
+build.dart finished [915 ms]
+
+---
+build.dart --machine --changed=web/sass/layouts/_main.scss
+
+build.dart finished [939 ms]
+
+---
+build.dart --machine --changed=web/stylesheets/master.css --changed=web/stylesheets/sass/ie.css --changed=web/s...
+
+build.dart finished [933 ms]
+
+---
+build.dart --machine --changed=web/css/config.rb --changed=web/css/global/_base.scss --changed=web/css/global/_...
+
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=web/css/sass/global/_base.scss --changed=web/css/sass/global/_formatting.scss --...
+
+build.dart finished [950 ms]
+
+---
+build.dart --machine --changed=web/css/sass/layouts/_main.scss --removed=web/css/layouts/_main.scss
+
+build.dart finished [954 ms]
+
+---
+build.dart --machine --changed=web/css/sass/modules/_site-intro.scss --removed=web/css/modules/_site-intro.scss
+
+build.dart finished [923 ms]
+
+---
+build.dart --machine --changed=web/css/sass/config.rb --removed=web/css/config.rb
+
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=web/css/sass/master.scss --removed=web/css/master.scss
+
+build.dart finished [946 ms]
+
+---
+build.dart --machine --changed=web/css/config.rb --removed=web/css/sass/config.rb
+
+build.dart finished [931 ms]
+
+---
+build.dart --machine --removed=web/css/sass/ie.scss
+
+build.dart finished [961 ms]
+
+---
+build.dart --machine --removed=web/css/sass/print.scss
+
+build.dart finished [971 ms]
+
+---
+build.dart --machine --removed=web/css/sass/screen.scss
+
+build.dart finished [937 ms]
+
+---
+build.dart --machine --removed=web/css/stylesheets/screen.css
+
+build.dart finished [937 ms]
+
+---
+build.dart --machine --removed=web/css/stylesheets/print.css
+
+build.dart finished [992 ms]
+
+---
+build.dart --machine --removed=web/css/stylesheets/ie.css
+
+build.dart finished [926 ms]
+
+---
+build.dart --machine --changed=web/css/stylesheets/master.css
+
+build.dart finished [934 ms]
+
+---
+build.dart --machine --changed=web/stylesheets/master.css
+
+build.dart finished [934 ms]
+
+---
+build.dart --machine --changed=web/css/stylesheets/master.css
+
+build.dart finished [979 ms]
+
+---
+build.dart --machine --changed=web/css/sass/layouts/_main.scss
+
+build.dart finished [940 ms]
+
+---
+build.dart --machine --changed=web/css/stylesheets/master.css
+
+build.dart finished [929 ms]
+
+---
+build.dart --machine --removed=web/stylesheets/master.css --removed=web/stylesheets/sass/ie.css --removed=web/s...
+
+build.dart finished [938 ms]
+
+---
+build.dart --machine --changed=web/style/config.rb --changed=web/style/sass/global/_base.scss --changed=web/sty...
+
+build.dart finished [943 ms]
+
+---
+build.dart --machine --changed=web/style/config.rb
+
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=web/style/css/master.css
+
+build.dart finished [933 ms]
+
+---
+build.dart --machine --removed=web/style/stylesheets/master.css
+
+build.dart finished [949 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [947 ms]
+
+---
+build.dart --machine --changed=web/style/sass/layouts/_main.scss
+
+build.dart finished [970 ms]
+
+---
+build.dart --machine --changed=web/style/css/master.css
+
+build.dart finished [930 ms]
+
+---
+build.dart --machine --changed=web/style/sass/layouts/_main.scss
+
+build.dart finished [948 ms]
+
+---
+build.dart --machine --changed=web/style/css/master.css
+
+build.dart finished [937 ms]
+
+---
+build.dart --machine --changed=web/style/sass/layouts/_main.scss
+
+build.dart finished [956 ms]
+
+---
+build.dart --machine --changed=web/style/css/master.css
+
+build.dart finished [981 ms]
+
